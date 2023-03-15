@@ -3,11 +3,7 @@ import data from "./data";
 import Card from "./Card";
 
 function App() {
-  const cards = data.map(item => {
-    return (
-      <Card {...item} />
-    )
-  })
+  const cards = data.map(item => <Card {...item} />);
 
   return (
     <div className="App">
