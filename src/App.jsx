@@ -6,7 +6,7 @@ function App() {
   const cards = data.map(item => <Card {...item} />);
 
   return (
-    <div className="App">
+    <div className="App flex flex-col h-screen justify-between">
       {cards}
     </div>
   )
