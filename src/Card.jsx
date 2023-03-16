@@ -2,7 +2,7 @@ import Pin from "./assets/mappin.png";
 
 export default function Card ({ title, location, googleMapsUrl, startDate, endDate, description, imageUrl }) {
   return (
-    <article className="flex gap-x-6 ml-[2.4375em] mt-[2.25em]">
+    <article className="flex gap-x-6 ml-[2.4375em] mt-[2.25em] mr-[2.5em]">
       <img src={imageUrl} alt={title} className="w-[7.875rem] h-[10.5rem] rounded-md" />
       <section className="self-center">
         <div className="flex gap-x-2">
