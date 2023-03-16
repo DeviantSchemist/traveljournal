@@ -7,8 +7,8 @@ export default function Card ({ title, location, googleMapsUrl, startDate, endDa
         <img src={imageUrl} alt={title} className="w-[7.875rem] h-[10.5rem] rounded-md" />
         <section className="self-center">
           <div className="flex gap-x-2">
-            <img src={Pin} alt="Map Pin Icon" className="self-center" />
-            <p>{location}</p>
+            <img src={Pin} alt="Map Pin Icon" className="self-center w-[0.4375rem] h-[0.596875rem]" />
+            <p>{location.toUpperCase()}</p>
             <p className="text-[#918E9B] underline"><a href={googleMapsUrl} target="_blank">View on Google Maps</a></p>
           </div>
           <h2 className="text-[1.5625rem] font-bold mb-6">{title}</h2>
