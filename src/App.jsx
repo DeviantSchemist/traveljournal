@@ -4,7 +4,7 @@ import Card from "./Card";
 import NavBar from "./NavBar";
 
 function App() {
-  const cards = data.map(item => <Card {...item} />);
+  const cards = data.map((item, index) => <Card key={index} {...item} />);
 
   return (
     <div className="App h-screen">
