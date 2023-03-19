@@ -16,7 +16,7 @@ export default function Card ({ title, location, googleMapsUrl, startDate, endDa
           <p>{description}</p>
         </section>
       </article>
-      <hr className="text-[#F5F5F5] ml-[40px] mr-[32px]" />
+      <hr className="text-[#F5F5F5] ml-[40px] mr-[32px] last:hidden" />
     </>
   )
 }
